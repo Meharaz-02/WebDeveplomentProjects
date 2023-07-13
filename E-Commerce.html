@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Euphoria Online Shopping Website</title>
+
+    <style>
+
+        body
+        {
+          background-color:rgb(172, 66, 149);
+          font-family: Arial, sans-serif;
+            margin :0;
+            padding: 0;
+        }
+        header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			padding: 20px;
+			background-color: rgba(162, 223, 194, 0.271);
+			box-shadow: 0 5px 10px rgba(180, 187, 249, 0.536);
+			animation: fadeInDown 1s ease;
+            text-align : center;
+           
+		}
+		
+		@keyframes fadeInDown {
+			0% {
+				transform: translateY(-50px);
+				opacity: 0;
+			}
+			100% {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+
+		nav {
+			display: flex;
+		}
+		nav a {
+			display: grid;
+			padding: 10px;
+			margin: 0 5px;
+			color: #0868f9;
+			text-decoration: none;
+			font-weight: bolder;
+			border-radius: 10px;
+			background-color: rgba(146, 240, 254, 0.53);
+			transition: background-color 0.3s ease;
+		}
+		nav a:hover {
+			background-color: rgb(218, 188, 149);
+		}
+        .container {
+			max-width: 1100px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: rgba(247, 244, 250, 0.542);
+			box-shadow: 0 5px 10px rgba(253, 250, 254, 0.492);
+			animation: fadeInUp 1s ease;
+		}
+
+		@keyframes fadeInUp {
+			0% {
+				transform: translateY(50px);
+				opacity: 0;
+			}
+			100% {
+				transform: translateY(0);
+				opacity: 1;
+			}
+		}
+
+		.section {
+			margin: 50px 0;
+			animation: fadeInLeft 1s ease;
+		}
+
+		@keyframes fadeInLeft {
+			0% {
+				transform: translateX(-50px);
+				opacity: 0;
+			}
+			100% {
+				transform: translateX(0);
+				opacity: 1;
+			}
+		}
+        .header 
+        {
+            background-color: #15fee3;
+            color: #99afae;
+            padding: 10px;
+            text-align: center;
+        }
+      /* Styling for the main sections */
+      section {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+      }
+      
+      section h2 {
+        font-size: 24px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+      }
+      
+      section ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      section li {
+        margin: 20px;
+        border: 1px solid rgb(218, 133, 168);
+        border-radius: 5px;
+        box-shadow: 0 0 10px #eec5f8;
+        padding: 20px;
+        width: 300px;
+        text-align: left;
+      }
+      
+      section li:hover {
+        box-shadow: 0 0 10px rgb(248, 248, 3);
+      }
+      
+      section li img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+      
+      section li h3 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      section li p {
+        font-size: 16px;
+        margin-bottom: 5px 0;
+      }
+      
+      section li button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 10px 20px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      section li button:hover {
+        background-color: #0056b3;
+      }
+      .star {
+    color: #dfebef;
+    font-size: 20px;
+}
+
+.star.filled {
+    color: #f80e48;
+}
+
+
+    </style>
+
+
+  </head>
+  <body>
+    <div class="header">
+		<h1 style="color: rgb(240, 11, 240)">Euphoria Online Shopping</h1>
+    <nav>
+        <a href="#Electronics">Electronics</a>
+        <a href="#Clothing">Clothing</a>
+        <a href="#Footwear">Footwear</a>
+        <a href="#Furniture">Furniture</a>
+        
+      </nav>
+    </div>
+  
+<div class="container">
+	<section id = "Electronics" class="section">
+        <h2>Electronics</h2>
+      <ul>
+        <li>
+          <img src="https://m.media-amazon.com/images/I/41IMsImWGKL._SX300_SY300_QL70_FMwebp_.jpg" alt="Product 1">
+          <h3>Laptop</h3>
+          <p>ASUS Vivobook 16X (2022), 16-inch (40.64 cms) WUXGA, AMD Ryzen 5 5600H, Thin and Light Laptop (8GB/512GB SSD/Integrated Graphics/Windows 11/Office 2021/Quiet Blue/1.8 kg), M1603QA-MB502WS
+            Visit the ASUS Store</p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+            <p>4.1 out of 5 stars (4.1)    240 ratings | 292 answered questions
+            Amazon's
+            Choice
+            for "laptop under 50000"</p>
+            <p>-32% ₹46,990</p>
+            <p>M.R.P.: ₹68,990</p>
+            <p>Summer Sale Deal
+            Inclusive of all taxes
+            EMI starts at ₹2,245. No Cost EMI available</p>
+          <button>Add to Cart</button>
+        </li>
+        <li>
+          <img src="https://images-eu.ssl-images-amazon.com/images/G/31/camera/teaser2/newlaunches/updatd/8_New_Launches_440x540.jpg" alt="Product 2">
+          <h3>Printer</h3>
+          <p>HP Smart Tank 589 All-in-one WiFi Colour Printer (Upto 6000 Black and 6000 Colour Pages Included in The Box). - Print, Scan & Copy for Office/Home
+            Visit the HP Store</p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+            </div>
+            <p> 4.3 out of 5 stars (4.3)    44 ratings | 25 answered questions
+            Amazon's
+            Choice
+            for "hp printer"
+            -21% ₹13,998</p>
+            <p>M.R.P.: ₹17,829</p>
+            <p>Summer Sale Deal
+            Inclusive of all taxes</p>
+          <button>Add to Cart</button>
+        </li>
+        <li>
+          <img src="https://m.media-amazon.com/images/I/81WtQ64-SOL.AC_UL480_QL65.jpg" alt="Product 3">
+          <h3>Camera</h3>
+          <p>Nikon D850 45.7MP Digital SLR Camera (Black) with AF-S Nikkor 24-120mm F/4G ED VR Lens and 64GB Memory Card
+            Brand: Nikon</p>
+            <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+             <p>3.0 out of 5 stars (3.0)    17 ratings | 17 answered questions
+            -12% ₹2,38,989</p>
+            <p>M.R.P.: ₹2,71,950</p>
+            <p>Summer Sale Deal</p>
+          <button>Add to Cart</button>
+        </li>
+        <li>
+            <img src="https://m.media-amazon.com/images/I/6128OgyhQTL.SX679.jpg" alt="Product 4">
+            <h3>Watches</h3>
+            <p>Samsung Galaxy Watch4 LTE (4.0 cm, Pink Gold, Compatible with Android only)
+                Visit the Samsung Store</p>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+                <p> 4.2 out of 5 stars (4.2)    2,642 ratings | 1000+ answered questions
+                -59% ₹12,990</p>
+                <p>M.R.P.: ₹31,999</p>
+                <p>Summer Sale Deal</p>
+            <button>Add to Cart</button>
+          </li>
+	</section>
+
+
+    <section id = "Clothing" class="section">
+
+        <h2>Clothing</h2>
+        <ul>
+            <li>
+              <img src="https://storage.sg.content-cdn.io/cdn-cgi/image/width=1000,height=1500,quality=75,format=auto/in-resources/6c57599f-2c43-4c82-806a-e07c3410f5d3/Images/ProductImages/Source/casualt18216ss22must_1.jpg" alt="Product 1">
+              <h3>Women Kurti</h3>
+              <p>Mustard LIVA Flared Printed Short Kurti
+                Mustard LIVA Flared Short Kurti With Round Neckline
+                PRODUCT CODE: CASUALT18216SS22MUST</p>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+            <p> 3.8 out of 5 stars (3.8)    876 ratings | 5 answered questions
+                -86% ₹279</p>
+                <p>M.R.P.: ₹1,999</p>
+                <p>Summer Sale Deal</p>
+              <button>Add to Cart</button>
+            </li>
+
+            <li>
+              <img src="https://m.media-amazon.com/images/I/71jpLdbzbuL._UX679_.jpg" alt="Product 2">
+              <h3>Mens Wear</h3>
+              <p>Brand:Generic
+                 Shirt Cotton Blend Full Sleeve Formal</p>
+                 <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                </div>
+                 <p>5.0 out of 5 stars (5.0)    1 rating 
+                -55% ₹1,075</p>
+                <p>M.R.P.: ₹2,399</p>
+                <p>Inclusive of all taxes
+                EMI starts at ₹368 per month.</p>
+              <button>Add to Cart</button>
+            </li>
+          
+             
+       
+    </section>
+
+    <section id = "Footwear" class="section">
+
+        <h2>Footwear</h2>
+        <ul>
+            <li>
+              <img src="https://m.media-amazon.com/images/I/61hRRG9N9sL.UY695.jpg" alt="Product 1">
+              <h3>Women Footwear</h3>
+              <p>PINKWOOD Women Sandal Block Heel</p>
+              <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9734;</span>
+                <span class="star">&#9734;</span>
+            </div>
+                <p>3.6 out of 5 stars (3.6)    2,737 ratings 
+               -60% ₹399</p>
+               <p>M.R.P.: ₹999</p>
+               <p></p>Inclusive of all taxes Offers</p>
+               <button>Add to Cart</button>
+            </li>
+            <li>
+              <img src="https://m.media-amazon.com/images/I/612Qj0r-yaL._UX695_.jpg" alt="Product 2">
+              <h3>Men Footwear</h3>
+              <p>US Polo Association Men's Panal Sneakers</p>
+              <div class="rating">
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+                <span class="star">&#9733;</span>
+            </div>
+                <p> 5.0 out of 5 stars (5.0)    2 ratings 
+                -70% ₹299</p>
+                <p> M.R.P.: ₹999</p>
+              <button>Add to Cart</button>
+            </li>
+           
+    </section>
+
+    <section id = "Furniture" class="section">
+
+        <h2>Furniture</h2>
+        <ul>
+            <li>
+              <img src="https://m.media-amazon.com/images/I/51EdXh%2BOFDL.SX300_SY300_QL70_FMwebp.jpg" alt="Product 1">
+              <h3>Laptop Desk</h3>
+              <p>
+                QARA (31.5 x 18 inches Solid Wood Wall Mounted Round Corner Folding Study Table|Foldable Laptop Desk for Home and Office Computer- White
+                Our Price: To see product details, add this item to your cart. You can always remove it later.</p>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+                <p> M.R.P.: ₹3999</p>
+              <button>Add to Cart</button>
+            </li>
+            <li>
+              <img src="https://m.media-amazon.com/images/I/61t-w1Eg9zL.SX679.jpg" alt="Product 2">
+              <h3>Sofa</h3>
+              <p>Lukzer 1 Seater Elastic Universal Stretchable Sofa Cover with 1 Free Cushion Cover, Polyester (90cm-140cm/Dark Blue Lining Design)
+                Visit the Lukzer Store</p>
+                 <p>3.5 out of 5 stars    415 ratings
+                To see product details, add this item to your cart. You can always remove it later.</p>
+                <div class="rating">
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9733;</span>
+                    <span class="star">&#9734;</span>
+                </div>
+                <p> M.R.P.: ₹5579</p>
+              <button>Add to Cart</button>
+            </li>
+            
+    </section>
