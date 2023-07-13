@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Engineering College Home Page</title>
+    <div class="image-container">
+  <img src="https://images.collegedunia.com/public/college_data/images/campusimage/1419505396pp.PNG" alt="Engineering College Building">
+    <div class="image-text">
+        <h1>RAVINDRA COLLEGE OF ENGINEERING FOR WOMEN</h1>
+        
+    </div>
+  </div>
+
+<style>
+        .image-container {
+  position: relative;
+}
+
+.image-container img {
+  display: block;
+  margin: 100auto;
+  width: 100%;
+}
+
+.image-text {
+  position: absolute;
+  top: 11%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color:#cc0066;
+  z-index: 1;
+  width: 100%;
+}
+
+.image-text h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.image-text p {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+      /* CSS for body */
+      body 
+      {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+      }
+  /* CSS for header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* CSS for navigation */
+  nav {
+    background-color: #666;
+    overflow: hidden;
+  }
+
+  nav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  /* CSS for main content */
+  main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+  }
+
+  /* CSS for section headings */
+  h2 {
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  /* CSS for department list */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    margin: 10px 0;
+  }
+  li:hover 
+  {
+    background-color: #b3ffff;
+  }
+  img
+  {
+    width: 500px;
+    height: 500px;
+    border: 1px solid #ddd;
+  }
+.department {
+    position: relative;
+  }
+  .department img {
+    width: 100%;
+    height: auto;
+  }
+  .department .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffb3;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
+  }
+   h2{
+        text-align: center;
+        color: #003366;
+        margin-top: 50px;
+      }
+      table 
+      {
+        border-collapse: collapse;
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+      }
+      th, td {
+        text-align: left;
+            padding: 8px;
+            font-size: 12px;
+      }
+      th {
+        background-color: #ffb380;
+        color: white;
+      }
+      tr:nth-child(even) 
+      {
+        background-color:  #ffffff;
+      }
+      .logo {
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
+ 
+  /* CSS for contact form */
+  form {
+    border: 1px solid #ccc;
+    background-color: #ffffcc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input[type="submit"] {
+    background-color: #bbff99;
+    color: #ffffcc;
+    padding: 20px 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #ffffcc;
+  }
+
+  /* CSS for footer */
+  footer {
+    background-color: #bbff99;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+</style>
+ </head>
+  <body>
+    <header>
+      <h1>Welcome to Our Engineering College</h1>
+        <p>Learn from the best and achieve your dreams</p></h1>
+    </header>
+<nav>
+      <a href="#about" title="Learn more about us">About Us</a>
+      <a href="#department" title="Explore our departments">Department</a>
+      <a href="#faculty" title="Meet our faculty members">Faculty</a>
+      <a href="#research" title="Find out about our research activities">Research</a>
+      <a href="#placement" title="Discover our placement opportunities">Placement</a>
+      <a href="#contact" title="Get in touch with us">Contact Us</a>
+    </nav>
+
+<main>
+  <h2 id="about">About Us</h2>
+  <p>Ravindra College of Engineering for Women (RCEW) is promoted by Sri Sai Krishna Educational Society, a society registered on 15-02-2006 under A.P Societies Registration Act No 35 of 2001 and is the dream project of renowned educationalist Sri G.Pullaiah and his son Sri G.V.M Mohan Kumar. The college is located in a hamlet Venkayapalli, within a close proximity from Kurnool on the state highway and is well connected to all major cities in and around the state. The College established in the year 2007, works with the Motto “Join to learn and leave to serve” and strives to provide the student community, the modern technology supported by Comprehensive library, State of art laboratories along with necessary computational Skills. RCEW has obtained NAAC A+ status from the year 2022 besides being accredited by NAAC of UGC and NBA of AICTE, New Delhi. GPCET is approved by AICTE, New Delhi and has also been granted permanent affiliation under Jawaharlal Nehru Technological University Ananthapur. Also it is an ISO 9001-2015 certified Institution besides recognized by UGC under 2(f) and 12(B). It offers 7 UG programs in Civil Engineering (CE), Computer Science and Engineering (CSE), Electronics and Communication Engineering (ECE), Computer Science Engineering-Artificial Intelligence (CSE-AI) and Computer Science Engineering-DS(CSE-DS) . The college consists of well designed infrastructure and is ably supported by well qualified, reasonable blend of experienced and young faculty who involve themselves in teaching and research. The overall ambience of the college provides best place for teaching-learning experience. Further, all the stake holders of RCEW work in the framework of its well defined Vision, Mission and Quality Policy.
+
+Why RCEW is better than others
+
+* Excellent faculty retention ratio of about 95%.
+* Excellent Research and Development activities for both faculty and Students along with promotion of e-learning across the Campus
+* One of the most sought after campus in the region by the Multi National Companies for campus placements
+* Well established labs with State of Art hardware and software
+* Strong Alumni-Institute relationship
+* Association with National and International bodies of repute for improving quality of education, employability and research
+
+Vision
+
+To prepare professionally superior and ethically strong global manpower in technology and management to serve the nation and the world in the 21st Century.
+
+Mission
+
+To strive hard in training the students with the current technology and motivate them to take up research problems and innovations associated with professional, personality development programs to meet the challenges in this competitive world in an efficient manner.
+
+</p>
+  <div class="about-text">
+    <p>Our college has a rich history of producing highly skilled engineers who are well-equipped to take on challenges in the real world. We have state-of-the-art facilities and experienced faculty who provide personalized attention to each student.</p>
+  </div>
+ <h2 id="department" >Department</h2>
+ <div class="department">
+<ul>
+  <li>
+  <h3>Computer Science</h3>
+  <li style="position: relative;">
+  <img src= "https://th.bing.com/th/id/R.78a6718e7a9f0474055ce9d8667775a9?rik=FbVVpA9XRCT%2bLg&riu=http%3a%2f%2fwww.recw.ac.in%2fv1.8%2fwp-content%2fuploads%2f2017%2f07%2flab212.jpg&ehk=5A%2b9oWi8EBlDAWFF6P%2fheRWMPNC2%2boKX%2bymBp534iPQ%3d&risl=&pid=ImgRaw&r=0" alt="Computer Science">
+  <h3 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #ffffb3; font-size:3rem; z-index: 10;">Computer Science</h3>
+  <p style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); color: #ffcc00; font-size:1.5rem; z-index: 1;">Description of Computer Science department.</p>
+<div>
+  <p>The mission of the Department is to persistently strive for achieving excellence in computing disciplines. It is being pursued through its spectrum of academic programmes in computing of contemporary standards. The sustained effort is to produce computing graduates with potential to design and develop systems involving the integration of software and hardware devices; innovative approaches to programming and problem solving as well as creative ways to use Computers; Large scale software systems; and computing infrastructure of an organization.
+
+History of Computer Science discipline at RCEW dates back to 2008. The Department of Computer Science & Engineering was established to meet the demand for well-qualified computer professionals.
+
+At present, the Department of Computer Science and Engineering, has more than 420 students and 27 core faculty members apart from many visiting professors, distinguished professionals from industry, eminent researchers and teaching/ research assistants. With an aim to carve a niche for itself in Computer Science and allied domains, the Department strives to:
+
+Become a pioneering world-class centre of excellence in education and research through collaborative, consultative and participatory approaches
+Nurture effective capabilities for the development of high quality technical and scientific manpower to meet the challenges of the knowledge era
+Provide cost-effective Information and Communication Technology (ICT)-based solutions and value-added services to a variety of organisations and to meet the expectations of stakeholders
+Foster a learning and creative community that strives to continuously advance the frontiers of knowledge and promote the deployment and usage of ICT-based applications for betterment of society.
+Vision
+
+To be a center of excellence in the field of Computer Science and Engineering along with imparting proficient and adaptable technological resources for the well being of mankind.
+
+Mission
+
+To achieve professional excellence by promoting an academic environment conducive to research and innovative ideas in order to meet the needs of ever changing IT industry and society.</p>
+</div>
+
+  </li>
+  <li>
+  <h3>Artifical Intelligence</h3>
+  <li style="position: relative;">
+    <img src="https://media.defense.gov/2019/Feb/12/2002089164/1280/1280/0/190212-D-ZZ999-0211C.JPG" alt="Artifical Intelligence">
+    <h3 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #ffffb3;font-size:3rem; z-index: 10;">Artifical Intelligence</h3>
+  <p style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); color: #ffcc00;font-size:1.5rem; z-index: 1;">Description of Artifical Intelligence department.</p>
+<div>
+  <p>The Artificial Intelligence Department in a college offers courses and research opportunities in the field of artificial intelligence (AI). This department focuses on the development of intelligent systems that can perform tasks that usually require human intelligence, such as visual perception, speech recognition, decision-making, and natural language processing.
+
+The curriculum of the AI Department usually includes courses such as programming, algorithms, machine learning, deep learning, natural language processing, robotics, computer vision, and ethics in AI. The students in this department work on projects that involve designing and implementing intelligent systems, developing new algorithms, and applying AI to various fields such as healthcare, finance, and security.
+
+The research in the AI Department focuses on developing new AI techniques and applications, advancing the state-of-the-art in AI, and addressing the ethical and social issues related to AI. The faculty and students in this department collaborate with researchers from other departments and universities, as well as with industry partners, to advance the field of AI and its applications.
+
+Graduates from the AI Department have many career opportunities in industries such as tech, finance, healthcare, and defense. They can work as data scientists, AI engineers, machine learning experts, software developers, research scientists, and consultants, among other roles.</p>
+</div>
+
+  </li>
+  <li>
+    <h3>Electrical</h3>
+    <li style="position: relative;">
+    <img src="https://images.static-collegedunia.com/public/college_data/images/campusimage/1419505396o.PNG" alt="Electronics">
+    <h3 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #ff99dd; font-size:2rem; z-index: 10;">Electronics Communication Engineering</h3>
+  <p style="position: absolute; top: 60%; left: 50%; transform: translate(-50%, -50%); color: #ffcc00;font-size:1rem; z-index: 1;">Description of Electronics Communication  Engineering department.</p>
+<div>
+  <p>Electronics Science Engineering is a branch of engineering that deals with the study and application of electricity, electronics, and electromagnetism. The department of Electronics Science Engineering in a college typically offers undergraduate and postgraduate degree programs.
+
+The undergraduate program provides students with a strong foundation in the core areas of electronics such as electronic devices and circuits, digital electronics, communication systems, and microprocessors. The program also includes courses in mathematics, physics, and computer science.
+
+The postgraduate program in Electronics Science Engineering provides students with advanced knowledge and skills in specialized areas of electronics such as VLSI design, embedded systems, wireless communication, signal processing, and control systems. The program also includes research work leading to a thesis or dissertation.
+
+The department of Electronics Science Engineering in a college usually has state-of-the-art laboratories equipped with advanced tools and software for conducting experiments and research in the field of electronics. Students are encouraged to participate in research projects and internships in leading industries and research organizations to gain practical experience and exposure to the latest technologies.
+
+Graduates of Electronics Science Engineering are in high demand in various industries such as telecommunications, semiconductor manufacturing, aerospace, defense, and consumer electronics. They can also pursue higher studies in the field of electronics or opt for careers in academia and research.</p>
+</div>
+  </li>
+</ul>
+</div>
+<h2 id="faculty" >Faculty</h2>
+    <div style="background-color: #ffe6ff; padding: 10px;">
+        <h3>Mr.Ravi Varma</h3>
+        <p>Professor of Computer Science</p>
+        <p>Email:Ravivarma@rcew.ac.in</p>
+        <p>Phone: 123-456-7890</p>
+        
+    </div>
+    <div style="background-color: #ffe6ff; padding: 10px;">
+        <h3>Mr.Kishore Kumar</h3>
+        <p>Asst.Professor of Computer Science</p>
+        <p>Email:Kishorekumar@rcew.ac.in </p>
+        <p>Phone: 122-756-7770</p>
+    </div>
+    <div style="background-color: #ffe6ff; padding: 10px;">
+        <h3>Ms.Priya Varshini</h3>
+        <p>Professor of Artificial Intelligence</p>
+        <p>Email:Priyavarshini@rcew.ac.in</p>
+        <p>Phone: 132-645-7990</p>
+        
+    </div>
+    <div style="background-color: #ffe6ff; padding: 10px;">
+        <h3>Mr.Praveen Gupta</h3>
+        <p>Asst.Professor of Artificial Intelligence</p>
+        <p>Email:Praveengupta@rcew.ac.in </p>
+        <p>Phone: 142-755-7880</p>
+    </div>
+    <div style="background-color: #ffe6ff; padding: 10px;">
+        <h3>Ms.Sujatha Reddy</h3>
+        <p>Asst.Professor of Electronics Communications Engineering </p>
+        <p>Email:Sujathareddy@rcew.ac.in </p>
+        <p>Phone: 144-775-7570</p>
+    </div>
+    <div style="background-color: #ffe6ff; padding: 10px;">
+        <h3>Mr.Siva Reddy</h3>
+        <p>Professor of Electronics Communications Engineering </p>
+        <p>Email:Sivareddy@rcew.ac.in </p>
+        <p>Phone: 125-745-7480</p>
+    </div>
+    <h2 id ="research">Research</h2>
+    <img src="https://www.recw.ac.in/v1.8/wp-content/uploads/2022/06/abc1-1.png" alt="Research" style="width: 100%; height:100% ;">
+    <div>
+  <p>The mission of the Department is to persistently strive for achieving excellence in computing disciplines. It is being pursued through its spectrum of academic programmes in computing of contemporary standards. The sustained effort is to produce computing graduates with potential to design and develop systems involving the integration of software and hardware devices; innovative approaches to programming and problem solving as well as creative ways to use Computers; Large scale software systems; and computing infrastructure of an organization.
+
+History of Computer Science discipline at RCEW dates back to 2008. The Department of Computer Science & Engineering was established to meet the demand for well-qualified computer professionals.
+
+At present, the Department of Computer Science and Engineering, has more than 420 students and 27 core faculty members apart from many visiting professors, distinguished professionals from industry, eminent researchers and teaching/ research assistants. With an aim to carve a niche for itself in Computer Science and allied domains, the Department strives to:
+
+Become a pioneering world-class centre of excellence in education and research through collaborative, consultative and participatory approaches
+Nurture effective capabilities for the development of high quality technical and scientific manpower to meet the challenges of the knowledge era
+Provide cost-effective Information and Communication Technology (ICT)-based solutions and value-added services to a variety of organisations and to meet the expectations of stakeholders
+Foster a learning and creative community that strives to continuously advance the frontiers of knowledge and promote the deployment and usage of ICT-based applications for betterment of society.
+Vision
+
+To be a center of excellence in the field of Computer Science and Engineering along with imparting proficient and adaptable technological resources for the well being of mankind.
+
+Mission</p>
+</div>
+    <h2 id="placement" >Placement</h2>
+     <table>s
+      <tr>
+        <th>Company Logo</th>
+        <th>Company Name</th>
+        <th>Number of Students Selected</th>
+        <th>Year</th>
+      </tr>
+      <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.9uyI-2qg5047_THkpYHqRAAAAA?pid=ImgDet&rs=1" alt="CLOUD BID DATA TECHNOLOGIES" class="logo"></td>
+        <td>CLOUD BID DATA TECHNOLOGIES</td>
+        <td>5</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td><img src="https://th.bing.com/th/id/R.125fdd994136d30a833212aaf21e2a3a?rik=fQzgdSnHX6bRqg&riu=http%3a%2f%2fdesign.flexiesolutions.com%2fimages%2flogo_MW.jpg&ehk=hT95QsSIBE2nn9dGRl%2fzveqS2OYiujq7wwAQmhUq7EY%3d&risl=&pid=ImgRaw&r=0" alt="MINDWAVE" class="logo"></td>
+        <td>MINDWAVE</td>
+        <td>3</td>
+        <td>2018</td>
+      </tr>
+      <tr>
+        <td><img src="https://mliieidqdvfj.i.optimole.com/mLOlr1Q-_vG68TVS/w:300/h:99/q:auto/https://www.talentio.in/wp-content/uploads/2021/03/Talentio-Logo.png" alt="TALENTIO" class="logo"></td>
+        <td>TALENTIO</td>
+        <td>6</td>
+        <td>2019</td>
+      </tr>
+       <tr>
+        <td><img src="https://mliieidqdvfj.i.optimole.com/mLOlr1Q-_vG68TVS/w:300/h:99/q:auto/https://www.talentio.in/wp-content/uploads/2021/03/Talentio-Logo.png" alt="TALENTIO" class="logo"></td>
+        <td>TALENTIO</td>
+        <td>11</td>
+        <td>2020</td>
+      </tr>
+       <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.-MPawjkpCD-ND1vNxcQl3QHaD4?pid=ImgDet&rs=1" alt="Infosys" class="logo"></td>
+        <td>Infosys</td>
+        <td>3</td>
+        <td>2020</td>
+      </tr>
+       <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.MaAcM-eSJBBwH3HU4FsRLwHaEK?pid=ImgDet&rs=1" alt="Accenture" class="logo"></td>
+        <td>Accenture</td>
+        <td>10</td>
+        <td>2020</td>
+      </tr>
+      <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.kz362e0cJzsKYwzeAFMwzQHaGk?pid=ImgDet&rs=1" alt="Wipro" class="logo"></td>
+        <td>Wipro</td>
+        <td>20</td>
+        <td>2020</td>
+      </tr>
+      <td><img src="https://th.bing.com/th/id/OIP.MaAcM-eSJBBwH3HU4FsRLwHaEK?pid=ImgDet&rs=1" alt="Accenture" class="logo"></td>
+        <td>Accenture</td>
+        <td>15</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.kz362e0cJzsKYwzeAFMwzQHaGk?pid=ImgDet&rs=1" alt="Wipro" class="logo"></td>
+        <td>Wipro</td>
+        <td>25</td>
+        <td>2021</td>
+      </tr>
+      <tr>
+        <td><img src="https://www.codetechnity.com/wp-content/uploads/2021/07/TCS_Logo-min.jpg" alt="TCS" class="logo"></td>
+        <td>TCS</td>
+        <td>10</td>
+        <td>2022</td>
+      </tr>
+       <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.-MPawjkpCD-ND1vNxcQl3QHaD4?pid=ImgDet&rs=1" alt="Infosys" class="logo"></td>
+        <td>Infosys</td>
+        <td>13</td>
+        <td>2022</td>
+      </tr>
+       <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.kz362e0cJzsKYwzeAFMwzQHaGk?pid=ImgDet&rs=1" alt="Wipro" class="logo"></td>
+        <td>Wipro</td>
+        <td>20</td>
+        <td>2023</td>
+      </tr>
+      <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.LnNOQDhjRUUJSjVnfR1NKgHaDA?pid=ImgDet&rs=1" alt="Capgemini" class="logo"></td>
+        <td>Capgemini</td>
+        <td>9</td>
+        <td>2023</td>
+      </tr>
+       <tr>
+        <td><img src="https://th.bing.com/th/id/OIP.MaAcM-eSJBBwH3HU4FsRLwHaEK?pid=ImgDet&rs=1" alt="Accenture" class="logo"></td>
+        <td>Accenture</td>
+        <td>22</td>
+        <td>2023</td>
+      </tr>
+    </table>
+    <div class="contact-container">
+  <h2>Contact Us</h2>
+  <form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" required>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" required>
+
+  <label for="subject">Subject:</label>
+  <input type="text" id="subject" name="subject" required>
+
+  <label for="message">Message:</label>
+  <textarea id="message" name="message" required></textarea>
+
+  <button type="submit">Submit</button>
+</form>
+<h3>Get in touch</h3>
+  <p><strong>Address:</strong> Ravindra College of Engineering for Women,
+Pasupula Road,
+Kurnool.</p>
+  <p><strong>Phone:</strong> (123) 456-7890</p>
+  <p><strong>Email:</strong>rcew.ac.in</p>
+</div>
+</main>
+  </body>
+</html>
+</body>
+
+ 
+
+
+
