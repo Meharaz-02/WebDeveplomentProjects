@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Community Website</title>
+    <link rel="stylesheet" href="Style4.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <a href="#home">Home</a>
+            <a href="#featured content">Featured Content</a>
+            <a href="#recent updates">Recent Updates</a>
+            <a href="#upcoming evvents">Upcoming Events</a>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <section id="banner">
+        <h1>Welcome to our Community</h1>
+        <p>Join us and be a part of something amazing!</p>
+        <a href="#" class="cta-button">Learn More</a>
+    </section>
+
+    <!-- Featured Content Section -->
+    <section id="featured">
+        <h2>Featured Content</h2>
+        <div class="featured-item">
+            <img src="https://corporate.target.com/_media/TargetCorp/Sustainability-ESG/Header_CommunityEngagement.jpg?ext=.jpg" alt="Featured Image">
+            <h3>Most Used Fonts By Professional Designers</h3>
+            <p> The fonts are one of the most important parts of every web Project. All though there have been many other selective collection font posts around which most of the time leads to big confusions Like which typefaces is really useful for your project or how to choose your font from the list of hundred fonts.
+                We spent last whole week reviewing dozens of font reservoirs and typography articles about fonts usability and popularity. Finally we end up with a list of 21 Most Used Fonts by Professional Designers in Web Designing World. All the screenshots made in such a way that there is no point of confusion. You can directly check the actual preview and corresponding font type.
+                The basic purpose behind this post is to show popular font types. there is no direct download link available for any font. 
+                You can find some related references at the end of the post.
+            </p>
+        </div>
+        <div class="featured-item">
+            <img src="https://www.grazitti.com/wp-content/uploads/2021/12/Blog1-1.png" alt="Featured Image">
+            <h3>Managing a Community</h3>
+            <p>Manage Community Actively: An efficient community manager can make all the difference. Active administration and moderation keeps abuse, spam, neglect, inactivity, and poor behavior of the participants away. 
+                A smart way to do this would be to get a good community manager. Community manager helps build relationships, gives the company a voice, creates buzz, listens to the chatter, and figures out the trends and concerns.
+                 He passes uses the data gathered from insights to help build better processes for the organization and improve the community.</p>
+        </div>
+        <div class="featured-item">
+            <img src="https://www.grazitti.com/wp-content/uploads/2016/04/online_community1-get-started-with-marketing-automation.jpg" alt="Featured Image">
+            <h3>Building a Community</h3>
+            <p>    Choose The Platform Wisely: There are multiple community development platforms available to build communities. However, it can be hard to decide the best. Each has its own uses and serves a niche. Nevertheless, which one suits you, you can decide after factoring in some important points like:
+
+                Platform stability
+                Scalability
+                Flexibility and customization
+                Mobile Capabilities
+                License Fee
+                Development Cost
+                Setup and deployment time
+                Out of box plugins
+                Support and Maintenance
+            
+            </p>
+        </div>
+    </section>
+
+    <!-- Recent Updates Section -->
+    <section id="updates">
+        <h2>Recent Updates</h2>
+        <ul>
+            <li>
+                <h3>Community and community-led growth becomes core to more businesses</h3>
+                <p>The pandemic was a slingshot for a community model within businesses and organisations. In 2022 we saw many more businesses and organisations calling themselves “community-centric organisations” or stating their focus was “community-led growth.”
+
+                    In 2023 more companies will dedicate attention and resources towards building year-round communities for multiple stakeholders.
+                    
+                    There will be an increasing recognition that communities are valuable, tangible business assets - an important element of a strong brand and an economic ‘moat’.
+                    
+                    The 2022 State of Community Management report from The Community Roundtable highlighted that 88% of C-level execs felt positive towards community programs compared to 56% in 2017.
+                    
+                    This report and the CMX 2022 Community Industry Report highlighted an increase in independent community departments, but also an increased shift towards community being a part of the marketing function.</p>
+            </li>
+            <li>
+                <h3>Community Based Marketing (CBM) gathers pace</h3>
+                <p>Investment in community for building awareness/brand salience, creating mental availability and generating data and insights has gained real momentum in 2022.
+
+                    In 2020, Ashley Friedlein and I coined the term Community Based Marketing (CBM) and defined this new, professionalised marketing discipline. We also explained who was doing it well and the success factors behind it.
+                    
+                    Many marketers are practising ABM (Account Based Marketing) in B2B marketing, but CBM (Community Based Marketing ) hadn’t been truly defined or professionalised before 2020.
+                    
+                    Here is the definition of Community Based Marketing (CBM):
+                    
+                    "Community Based Marketing (CBM) is bringing people together around a shared practice, purpose, place, product or set of circumstances to create insights and closer, more valuable relationships with prospects, customers and other stakeholders to deliver organisational value."</p>
+            </li>
+            <li>
+                <h3>Community aligns closer to influencer marketing and employee advocacy</h3>
+                <p>Social Selling, Employee Advocacy and supporting SMEs (Subject Matter Experts) to influence through social media are mature disciplines in B2B.
+
+                    At the B2B Social Trailblazers Summit, Influencer Marketing specialists from IBM, Ericsson, Mercer and agencies as well as creators/influencers including Sally Eaves, Neal Shaffer, Bernard Marr, Ronald van Loon and Efi Pylarinou talked about best practice and trends in the influencer and employee advocacy space.
+                    
+                    We were shown influencer partnerships, campaigns and business outcomes that would impress most consumer marketers.
+                    
+                    But one of the key realisations from the summit was that by focusing on social media for the past decade, the power of engaging with or creating smaller, influential communities and networks may have been overlooked.
+                    
+                    We can expect smart B2B strategists who presented at the conference like Katy Howell, Danielle Guzman and Anita Veszili to lead the charge and align influencer, employee advocacy and Community Based Marketing (CBM) with social media and influencer marketing programs and tools. They will use community to signal and deliver influence and impact.
+                    
+                    “The rise of the B2B influencer is likely to also have an impact within Community Based Marketing.
+                    
+                    This is a hot topic right now across social, and it makes sense that community would be part of the trend.”
+                    
+                    Katy Howell - CEO - Immediate Future
+                    
+                    
+                    “More than ever, we're seeing CEOs become celebrities online.
+                    
+                    Not only that, we're seeing investors, product managers, designers, recruiters become celebrities online too.
+                    
+                    This is by far one of the best things I'm seeing as it gives a lot of perspective into a company or an individual's approach to things, but also builds the element of trust and strengthens relationships with companies.”
+                    
+                    Edu Giansante – Head of Community - Wix
+                    
+                    
+                    “In the past, the worlds of community and social media were quite distinct.
+                    
+                    As communities become more about prospect and customer engagement, or lead generation, we will see social media and community working closer together.
+                    
+                    Likewise, the relatively more recent emergence of influencer marketing as a discipline clearly interrelates with communities of influence.”</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Upcoming Events Section -->
+    <section id="events">
+        <h2>Upcoming Events</h2>
+        <ul>
+            <li>
+                <h3>Event 1</h3>
+                <p>Date and Time: <span class="event-date">May 25, 2023, 7:00 PM</span></p>
+                <p>Location: <span class="event-location">Community Center</span></p>
+            </li>
+            <li>
+                <h3>Event 2</h3>
+                <p>Date and Time: <span class="event-date">June 1, 2023, 6:30 PM</span></p>
+                <p>Location: <span class="event-location">Park</span></p>
+            </li>
+            <li>
+                <h3>Event 3</h3>
+                <p>Date and Time: <span class="event-date">June 10, 2023, 8:00 PM</span></p>
+                <p>Location: <span class="event-location">Community Hall</span></p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2023 Community Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
+
+DESCRIPTION:
+The above code is an HTML document that represents a community website. Here is a breakdown of the different sections and their descriptions:
+
+1. Navigation Menu:
+   - The code defines a navigation menu using an unordered list (`<ul>`) inside a `<nav>` element.
+   - It contains four navigation links: "Home," "Featured Content," "Recent Updates," and "Upcoming Events."
+
+2. Banner Section:
+   - The code includes a section with the id "banner" that represents the website's banner area.
+   - It contains a heading (`<h1>`), a short description (`<p>`), and a call-to-action button (`<a>`).
+
+3. Featured Content Section:
+   - The code includes a section with the id "featured" that displays featured content.
+   - It contains three featured items, each consisting of an image (`<img>`), a heading (`<h3>`), and a description (`<p>`).
+
+4. Recent Updates Section:
+   - The code includes a section with the id "updates" that presents recent updates.
+   - It contains an unordered list (`<ul>`) with three list items (`<li>`).
+   - Each list item includes a heading (`<h3>`) and a description (`<p>`).
+
+5. Upcoming Events Section:
+   - The code includes a section with the id "events" that lists upcoming events.
+   - It contains an unordered list (`<ul>`) with three list items (`<li>`).
+   - Each list item includes an event title (`<h3>`), event date and time (`<span>`), and event location (`<span>`).
+
+6. Footer Section:
+   - The code includes a footer section at the end of the page.
+   - It contains a paragraph (`<p>`) with a copyright notice.
+
+Additionally, the code references an external stylesheet file named "Style4.css" using the `<link>` tag. This CSS file likely contains the styles for the website's layout and visual appearance.
+CSS CODE:
+/* Reset default browser styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 5px;
+}
+
+#banner {
+  text-align: center;
+  padding: 50px;
+  background-color: #92dcf3;
+  color: #ebe3e3;
+}
+
+#featured {
+  padding: 50px;
+  background-color: #fff;
+  color: #333;
+}
+
+.featured-item {
+  margin-bottom: 30px;
+}
+
+.featured-item img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+
+#updates {
+  padding: 50px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+#updates ul {
+  list-style: none;
+}
+
+#updates li {
+  margin-bottom: 20px;
+}
+
+#events {
+  padding: 50px;
+  background-color: #eec6c6;
+  color: #333;
+}
+
+#events ul {
+  list-style: none;
+}
+
+#events li {
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #eb0808;
+  color: #0a0a0a;
+}
