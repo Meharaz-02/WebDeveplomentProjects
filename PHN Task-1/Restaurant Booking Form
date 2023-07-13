@@ -1,0 +1,241 @@
+//HTML CODE:
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Restaurant Booking Form</title>
+<script>
+function showMessage() {
+alert("Your table has been booked. Thank you!");
+}
+</script>
+<meta name="viewport" content="width=device-width,
+initial-scale=1.0" />
+<link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+<div class="container">
+<h1 class="form-title">BOOK YOUR TABLE</h1>
+<form action="#">
+<div class="main-user-info">
+<div class="user-input-box">
+<label for="fullName">Full Name</label>
+<input type="text"
+id="fullName"
+name="fullName"
+placeholder="Enter Full Name" />
+</div>
+<div class="user-input-box">
+<label for="date">Date:</label><br>
+<input type="date" id="date" name="date" required><br>
+</div>
+<div class="user-input-box">
+<label for="guests">Number of Guests</label>
+<input type="text"
+id="guests"
+name="guests"
+TASK1
+placeholder="Enter the value limit is 5 per table"
+/>
+</div>
+<div class="user-input-box">
+<label for="time">Time:</label><br>
+<input type="time" id="time" name="time" required><br>
+</div>
+<div class="user-input-box">
+<label for="phoneNumber">Phone Number</label>
+<input type="text"
+id="phoneNumber"
+name="phoneNumber"
+placeholder="Enter Phone Number" />
+</div>
+<div class="user-input-box">
+<label for="hours">How Many Hours</label>
+<input type="text"
+id="hours"
+name="hours"
+placeholder="Enter the value" />
+</div>
+</div>
+<div class="form-submit-btn">
+<input type="submit" value="SUBMIT" onclick="showMessage()">
+</div>
+</form>
+</div>
+</body>
+</html>
+
+//CSS CODE:
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+TASK1
+}
+body {
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+background: url("https://t-
+ec.bstatic.com/images/hotel/max1024x768/144/144077460.jpg");
+background-size: cover;
+}
+.container {
+width: 100%;
+max-width: 650px;
+background: rgba(0, 0, 0, 0.5);
+padding: 28px;
+margin: 0 28px;
+border-radius: 10px;
+box-shadow: inset -2px 2px 2px white;
+}
+.form-title {
+font-size: 26px;
+font-weight: 600;
+text-align: center;
+padding-bottom: 6px;
+color: white;
+text-shadow: 2px 2px 2px black;
+border-bottom: solid 1px white;
+}
+.main-user-info {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 20px 0;
+}
+.user-input-box:nth-child(2n) {
+justify-content: end;
+}
+.user-input-box {
+display: flex;
+flex-wrap: wrap;
+width: 50%;
+padding-bottom: 25px;
+TASK1
+}
+.user-input-box label {
+width: 95%;
+color: white;
+font-size: 20px;
+font-weight: 400;
+margin: 5px 0;
+}
+.user-input-box input {
+height: 40px;
+width: 95%;
+border-radius: 7px;
+outline: none;
+border: 1px solid grey;
+padding: 0 10px;
+}
+.gender-title {
+color: white;
+font-size: 24px;
+font-weight: 600;
+border-bottom: 1px solid white;
+}
+.gender-category {
+margin: 15px 0;
+color: white;
+}
+.gender-category label {
+padding: 0 20px 0 5px;
+}
+.gender-category label,
+.gender-category input,
+.form-submit-btn input {
+cursor: pointer;
+}
+.form-submit-btn {
+margin-top: 40px;
+}
+.form-submit-btn input {
+display: block;
+width: 100%;
+TASK1
+margin-top: 10px;
+font-size: 20px;
+padding: 10px;
+border: none;
+border-radius: 3px;
+color: rgb(209, 209, 209);
+background: rgb(128, 139, 34);
+}
+.form-submit-btn input:hover {
+background: rgba(56, 204, 93, 0.7);
+color: rgb(255, 255, 255);
+}
+@media(max-width: 600px) {
+.container {
+min-width: 280px;
+}
+.user-input-box {
+margin-bottom: 12px;
+width: 100%;
+}
+.user-input-box:nth-child(2n) {
+justify-content: space-between;
+}
+.gender-category {
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+.main-user-info {
+max-height: 380px;
+overflow: auto;
+}
+.main-user-info::-webkit-scrollbar {
+width: 0;
+}
+}
+DESCRIPTION:
+This is a CSS code that defines the style of a form. The form has a container with a maximum
+width of 650px and a background with an image. The container has a semi-transparent black
+TASK1
+background with padding, margin, and border radius. The form also has a title, main user info
+section, and gender categories section.
+The main user info section has two columns of input boxes, with labels and input fields. The
+gender categories section has a title and three radio buttons for selecting gender. At the end of
+the form, there is a submit button with a hover effect.
+The CSS code also includes media queries for responsive design, with changes for small
+screen sizes, such as reducing the size of input boxes and changing the layout of the gender
+categories section. The scrollbar is also hidden for the main user info section on small screens.
+The above CSS code defines the styling for a user input form, including the layout, colours,
+and fonts.
+The first CSS rule sets some global styles for all elements, such as removing margins and
+padding, setting the box-sizing property to border-box to include borders in element
+dimensions, and specifying a default font family of sans-serif.
+The second rule sets the background image of the body element to a hotel image, center the
+contents of the body element using flexbox, and applies some padding to the container
+element that holds the form.
+The third rule sets the width and maximum width of the container element, the background
+colour with an alpha value of 0.5, some padding, margin, border-radius, and box-shadow.
+The fourth rule styles the form title, which includes the font size, font weight, text alignment,
+padding, text color, and text shadow. It also adds a border-bottom with a solid white line.
+TASK1
+The fifth rule styles the main user info section, which contains the user input fields. It sets the
+display to flex, justifies the content to space-between, and applies some padding. The user
+input boxes are styled to have a width of 50% and some padding.
+The sixth rule styles the user input labels and inputs, including the font size, font weight,
+margin, border-radius, outline, border, and padding.
+The seventh rule styles the gender title, which is used to label the gender input section, with
+the font size, font weight, and border-bottom.
+The eighth rule styles the gender category, which contains the gender input fields. It sets the
+margin, colour, and adds some padding to the labels. It also sets the cursor to pointer for the
+labels, inputs, and form submit button.
+The ninth rule styles the form submit button, including the margin-top and some padding.
+The input element is styled with a background colour, font size, border, border-radius, and
+colour.
+The tenth rule sets some responsive styles for smaller screens, with a media query that targets
+screens with a maximum width of 600px. It sets the minimum width of the container element,
+styles the user input boxes to have a width of 100% and the gender categories to be displayed
+as flex with space-between, sets the maximum height and overflow of the main user info
+section, and removes the scrollbar with the pseudo-element ::-webkit-scrollbar.
+TASK1
+OUTPUT:
+TASK1
+After Clicking on Submit Button this Pop-up Message is generated as confirmation of table booking.
